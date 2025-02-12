@@ -5,7 +5,7 @@ import (
 	"math/bits"
 	"sync"
 
-	"github.com/pierrec/lz4/v4/internal/lz4errors"
+	"github.com/Azaki-san/lz4/internal/lz4errors"
 )
 
 const (

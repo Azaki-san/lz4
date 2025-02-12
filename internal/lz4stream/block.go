@@ -6,9 +6,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/pierrec/lz4/v4/internal/lz4block"
-	"github.com/pierrec/lz4/v4/internal/lz4errors"
-	"github.com/pierrec/lz4/v4/internal/xxh32"
+	"github.com/Azaki-san/lz4/internal/lz4block"
+	"github.com/Azaki-san/lz4/internal/lz4errors"
+	"github.com/Azaki-san/lz4/internal/xxh32"
 )
 
 type Blocks struct {

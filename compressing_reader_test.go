@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pierrec/lz4/v4"
+	"github.com/Azaki-san/lz4"
 )
 
 func TestCompressingReader(t *testing.T) {

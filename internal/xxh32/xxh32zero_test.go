@@ -6,7 +6,7 @@ import (
 	"hash/fnv"
 	"testing"
 
-	"github.com/pierrec/lz4/v4/internal/xxh32"
+	"github.com/Azaki-san/lz4/internal/xxh32"
 )
 
 type test struct {
@@ -146,9 +146,8 @@ func TestUnaligned(t *testing.T) {
 	}
 }
 
-///////////////////////////////////////////////////////////////////////////////
+// /////////////////////////////////////////////////////////////////////////////
 // Benchmarks
-//
 var testdata1 = []byte(testdata[len(testdata)-1].data)
 
 func Benchmark_XXH32(b *testing.B) {

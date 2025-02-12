@@ -1,4 +1,5 @@
-//+build ignore
+//go:build ignore
+// +build ignore
 
 package main
 
@@ -9,8 +10,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/pierrec/lz4/v4/internal/lz4block"
-	"github.com/pierrec/packer"
+	"github.com/Azaki-san/lz4/internal/lz4block"
+	"github.com/Azaki-san/packer"
 	"golang.org/x/tools/imports"
 )
 

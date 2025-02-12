@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/pierrec/lz4/v4"
+	"github.com/Azaki-san/lz4"
 )
 
 func Example() {

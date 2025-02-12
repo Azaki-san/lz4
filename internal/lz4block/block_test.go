@@ -1,4 +1,5 @@
-//+build go1.9
+//go:build go1.9
+// +build go1.9
 
 package lz4block_test
 
@@ -8,9 +9,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/pierrec/lz4/v4"
-	"github.com/pierrec/lz4/v4/internal/lz4block"
-	"github.com/pierrec/lz4/v4/internal/lz4errors"
+	"github.com/Azaki-san/lz4"
+	"github.com/Azaki-san/lz4/internal/lz4block"
+	"github.com/Azaki-san/lz4/internal/lz4errors"
 )
 
 type testcase struct {

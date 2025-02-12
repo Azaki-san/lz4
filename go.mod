@@ -1,3 +1,3 @@
-module github.com/pierrec/lz4/v4
+module github.com/Azaki-san/lz4
 
-go 1.14
+go 1.24

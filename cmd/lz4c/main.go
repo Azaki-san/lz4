@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/pierrec/cmdflag"
+	"github.com/Azaki-san/cmdflag"
 )
 
 const lz4Extension = ".lz4"
